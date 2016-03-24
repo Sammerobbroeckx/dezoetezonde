@@ -48,6 +48,7 @@
 						</li>
 						<li><a href="#">Info</a></li>
 						<li><a href="#contact" data-toggle="modal">Contact</a></li>
+						<li><a href="#login" data-toggle="modal">Login</a></li>
 						
 					</ul>
 				

@@ -51,8 +51,6 @@
 		{
 			unset($_SESSION['user']);
 			$_SESSION['user'] = 1000;
-			//header('Location: ../inTeStellen.php');
-			//exit();
 		}
 		else
 		{
