@@ -14,12 +14,11 @@
 	}
 	else
 	{
-		goToUrl("start");
+		//goToUrl("start");
 	}
 	
 	function goToUrl($url)
-	{
-		//$paginaData->content = include_once("views/$url.php");	
+	{	
 		include_once("views/$url.php");		
 	}
 	

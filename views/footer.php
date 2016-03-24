@@ -1,12 +1,33 @@
 </div>
 		
-		<div class="navbar navbar-inverse navbar-fixed-bottom">
+		<div class="navbar navbar-default navbar-fixed-bottom">
 			<div class="container">
-				<p class="navbar-text">Deze site is gemaakt door <a href="http://teamcrap.be">Team Crap</a></p>
+				<p class="navbar-text">Deze site is gemaakt door Conner Maes & Samme Robbroeckx</p>
 			</div>
 		</div>
 		
-		<script type='text/javascript'  src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+		<div class="modal fade" id="contact" role="dialog">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h3>Contacteer de beste leefgroep!</h3>
+					</div>
+					<div class="modal-body">
+						<form action="php/mail.php" method="POST">
+							<input class="form-control" type="text" name="naam" placeholder="Naam" required></input>
+							<input class="form-control" type="text" name="email" placeholder="E-mail adres" required></input>
+							<textArea class="form-control" type="text" name="message" placeholder="je bericht" required></textArea>
+					</div>
+					<div class="modal-footer">
+						<button type="submit" class="btn btn-success">Verstuur!</button>
+						<button class="btn btn-danger" data-dismiss="modal">Close</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 		<script type='text/javascript' src="http://ajax.googleapis.com/ajax/libs/angularjs/1.0.4/angular.js"></script>
 		<script src="js/bootstrap.js"></script>
 	</body>

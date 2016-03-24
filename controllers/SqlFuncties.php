@@ -10,7 +10,7 @@
 		// }
 	// }
 	
-	geeft een array terug van alle bestaande evenementen
+	//geeft een array terug van alle bestaande evenementen
 	// function GetEventArray()
 	// {
 		// global $link;

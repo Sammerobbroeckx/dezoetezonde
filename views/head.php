@@ -6,7 +6,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>AgeScan</title>
+		<title>De Zoete Zonde</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta charset="utf-8">
 		<!-- Latest compiled and minified CSS -->
@@ -19,10 +19,10 @@
 	</head>
 	<body>
 	
-		<div class="navbar navbar-inverse navbar-static-top">
+		<div class="navbar navbar-default navbar-static-top">
 			<div class="container">
 				<div class="navbar-header">
-				<a href="?pagina=start" class="navbar-brand">AgeScan</a>
+				<a href="?pagina=start" class="navbar-brand">De Zoete Zonde</a>
 					<button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
@@ -33,7 +33,22 @@
 				<div class="collapse navbar-collapse navHeaderCollapse">
 				
 					<ul class="nav navbar-nav navbar-right">
-						<li class="active"><a href="?pagina=start">Home</a></li>				
+					
+						<li><a href="#">Home</a></li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Gerechten<b class="caret"></b></a>
+							
+							<ul class="dropdown-menu">
+								<li><a href="#">Soep</a></li>
+								<li><a href="#">Pasta</a></li>
+								<li><a href="#">Salade</a></li>
+								<li><a href="#">Hoofdgerecht</a></li>
+								<li><a href="#">Nagerecht</a></li>
+							</ul>
+						</li>
+						<li><a href="#">Info</a></li>
+						<li><a href="#contact" data-toggle="modal">Contact</a></li>
+						
 					</ul>
 				
 				</div>
