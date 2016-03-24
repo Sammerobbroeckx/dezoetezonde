@@ -35,7 +35,7 @@
 					</div>
 					<div class="modal-body">
 						<form action="?pagina=login" method="POST">
-							<input class="form-control" type="text" name="email" placeholder="E-mail adres" required></input>
+							<input class="form-control" type="text" name="mail" placeholder="E-mail adres" required></input>
 							<input class="form-control" type="password" name="paswoord" placeholder="je paswoord" required></input>
 					</div>
 					<div class="modal-footer">
