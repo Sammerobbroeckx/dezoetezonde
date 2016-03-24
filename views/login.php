@@ -3,7 +3,7 @@
 	{
 		if (Login($_POST['mail'],$_POST['paswoord']))
 		{
-			echo 'ingelogd';
+			echo '<meta http-equiv="refresh" content="0; url=?pagina=admin" />';
 		}
 	}
 ?>

@@ -51,14 +51,14 @@
 		{
 			unset($_SESSION['user']);
 			$_SESSION['user'] = 1000;
+			return true;
 		}
 		else
 		{
 			unset($_SESSION['fout']);
 			$_SESSION['fout'] = 'Login is fout!';
-			exit();
+			return false;
 		}
 		mysqli_close($link);
-		return true;
 	}
 ?>
