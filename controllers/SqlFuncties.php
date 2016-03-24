@@ -51,9 +51,8 @@
 		{
 			unset($_SESSION['user']);
 			$_SESSION['user'] = 1000;
-			$_SESSION['ID']=$row['userID'];
-			header('Location: ../inTeStellen.php');
-			exit();
+			//header('Location: ../inTeStellen.php');
+			//exit();
 		}
 		else
 		{
@@ -62,5 +61,6 @@
 			exit();
 		}
 		mysqli_close($link);
+		return true;
 	}
 ?>
