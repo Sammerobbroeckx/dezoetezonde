@@ -10,31 +10,145 @@
 		// }
 	// }
 	
-	//geeft een array terug van alle bestaande evenementen
-	// function GetEventArray()
-	// {
-		// global $link;
-		
-		// $array;
-		// $teller = 0;
-		
-		// $result = mysqli_query($link, "SELECT * FROM evenement");
+	//geeft een array terug van alle soepen
+	function GetSoepen()
+	{
+		global $link;
+			
+		$array;
+		$teller = 0;
+			
+		$result = mysqli_query($link, "SELECT * FROM soepen");
 
-		// if (mysqli_num_rows($result) > 0) 
-		// {
-			// while($row = mysqli_fetch_assoc($result)) 
-			// {
-				// $array[$teller][0] = $row["IDEvenement"];
-				// $array[$teller][1] = $row["Naam"];
-				// $array[$teller][2] = $row["Organisator"];
-				// $array[$teller][3] = $row["MinLeeftijd"];
-				// $array[$teller][4] = $row["MaxAanwezigen"];
-				// $teller++;
-			// }
-		// }	
-		// return $array;
-	// }
+		if (mysqli_num_rows($result) > 0) 
+		{
+			while($row = mysqli_fetch_assoc($result)) 
+			{
+				$array[$teller][0] = $row["IDsoepen"];
+				$array[$teller][1] = $row["omschrijving"];
+				$array[$teller][2] = $row["prijs"];
+				$teller++;
+			}
+		}	
+		return $array;
+	}
 	
+	//geeft een array terug van alle salades en pasta's
+	function GetSaladesEnPastas()
+	{
+		global $link;
+			
+		$array;
+		$teller = 0;
+			
+		$result = mysqli_query($link, "SELECT * FROM salades");
+
+		if (mysqli_num_rows($result) > 0) 
+		{
+			while($row = mysqli_fetch_assoc($result)) 
+			{
+				$array[$teller][0] = $row["IDsalades"];
+				$array[$teller][1] = $row["omschrijving"];
+				$array[$teller][2] = $row["prijs"];
+				$teller++;
+			}
+		}	
+		return $array;
+	}
+	
+	//geeft een array terug van alle ontbijten
+	function GetOntbijt()
+	{
+		global $link;
+			
+		$array;
+		$teller = 0;
+			
+		$result = mysqli_query($link, "SELECT * FROM ontbijt");
+
+		if (mysqli_num_rows($result) > 0) 
+		{
+			while($row = mysqli_fetch_assoc($result)) 
+			{
+				$array[$teller][0] = $row["IDontbijt"];
+				$array[$teller][1] = $row["omschrijving"];
+				$array[$teller][2] = $row["prijs"];
+				$teller++;
+			}
+		}	
+		return $array;
+	}
+	
+	//geeft een array terug van alle belgische makelij
+	function GetMakelij()
+	{
+		global $link;
+			
+		$array;
+		$teller = 0;
+			
+		$result = mysqli_query($link, "SELECT * FROM makelij");
+
+		if (mysqli_num_rows($result) > 0) 
+		{
+			while($row = mysqli_fetch_assoc($result)) 
+			{
+				$array[$teller][0] = $row["IDmakelij"];
+				$array[$teller][1] = $row["omschrijving"];
+				$array[$teller][2] = $row["prijs"];
+				$teller++;
+			}
+		}	
+		return $array;
+	}
+	
+	//geeft een array terug van alle broodjes
+	function GetBroodjes()
+	{
+		global $link;
+			
+		$array;
+		$teller = 0;
+			
+		$result = mysqli_query($link, "SELECT * FROM broodjes");
+
+		if (mysqli_num_rows($result) > 0) 
+		{
+			while($row = mysqli_fetch_assoc($result)) 
+			{
+				$array[$teller][0] = $row["IDbroodjes"];
+				$array[$teller][1] = $row["omschrijving"];
+				$array[$teller][2] = $row["prijs"];
+				$teller++;
+			}
+		}	
+		return $array;
+	}
+	
+	//geeft een array terug van alle kleine hapjes
+	function GetKleineHapjes()
+	{
+		global $link;
+			
+		$array;
+		$teller = 0;
+			
+		$result = mysqli_query($link, "SELECT * FROM kleinehap");
+
+		if (mysqli_num_rows($result) > 0) 
+		{
+			while($row = mysqli_fetch_assoc($result)) 
+			{
+				$array[$teller][0] = $row["IDkleineHap"];
+				$array[$teller][1] = $row["omschrijving"];
+				$array[$teller][2] = $row["prijs"];
+				$teller++;
+			}
+		}	
+		return $array;
+	}
+	
+	//functie om in te loggen
 	function Login($mail,$paswoord)
 	{
 		global $link;

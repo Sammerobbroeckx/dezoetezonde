@@ -22,7 +22,7 @@
 		<div class="navbar navbar-default navbar-static-top">
 			<div class="container">
 				<div class="navbar-header">
-				<a href="?pagina=start" class="navbar-brand">De Zoete Zonde</a>
+				<a href="?pagina=home" class="navbar-brand">De Zoete Zonde</a>
 					<button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
@@ -34,19 +34,20 @@
 				
 					<ul class="nav navbar-nav navbar-right">
 					
-						<li><a href="#">Home</a></li>
+						<li><a href="?pagina=home">Home</a></li>
 						<li class="dropdown">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Gerechten<b class="caret"></b></a>
 							
 							<ul class="dropdown-menu">
-								<li><a href="#">Soep</a></li>
-								<li><a href="#">Pasta</a></li>
-								<li><a href="#">Salade</a></li>
-								<li><a href="#">Hoofdgerecht</a></li>
-								<li><a href="#">Nagerecht</a></li>
+								<li><a href="?pagina=ontbijt">ontbijten</a></li>
+								<li><a href="?pagina=broodjes">broodjes en omeletten</a></li>
+								<li><a href="?pagina=hap">de kleine hap</a></li>
+								<li><a href="?pagina=belgisch">van Belgische makelij</a></li>
+								<li><a href="?pagina=soep">soepen</a></li>
+								<li><a href="?pagina=salade">salades en pasta's</a></li>
+								<li><a href="?pagina=dessert">desserts</a></li>
 							</ul>
 						</li>
-						<li><a href="#">Info</a></li>
 						<li><a href="#contact" data-toggle="modal">Contact</a></li>
 						<li><a href="#login" data-toggle="modal">Login</a></li>
 						

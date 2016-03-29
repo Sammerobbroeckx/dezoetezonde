@@ -2,7 +2,7 @@
 		
 		<div class="navbar navbar-default navbar-fixed-bottom">
 			<div class="container">
-				<p class="navbar-text">Deze site is gemaakt door Conner Maes & Samme Robbroeckx</p>
+				<p class="navbar-text">Deze site is gemaakt door ....</p>
 			</div>
 		</div>
 		
@@ -10,7 +10,7 @@
 			<div class="modal-dialog">
 				<div class="modal-content">
 					<div class="modal-header">
-						<h3>Contacteer de beste leefgroep!</h3>
+						<h3>Contacteer de zoete zonde!</h3>
 					</div>
 					<div class="modal-body">
 						<form action="php/mail.php" method="POST">

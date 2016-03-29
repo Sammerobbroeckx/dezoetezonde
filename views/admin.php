@@ -3,7 +3,3 @@
 ?>
 
 admin dinges
-
-<?php
-	include_once("views/adminFooter.php");
-?>
