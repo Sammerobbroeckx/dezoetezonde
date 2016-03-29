@@ -24,6 +24,4 @@
 	
 	$pagina = include_once "views/pagina.php";
 	echo $pagina;
-	
-	include_once('views/footer.php');
 ?>
