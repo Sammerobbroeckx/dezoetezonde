@@ -2,7 +2,7 @@
 	$dbhost ='localhost';
 	$dbuser ='root';
 	$dbpassword ='';
-	$dbdatabase ='agescan';
+	$dbdatabase ='zoetezonde';
 	
 	$link = mysqli_Connect($dbhost , $dbuser , $dbpassword , $dbdatabase);
 	
