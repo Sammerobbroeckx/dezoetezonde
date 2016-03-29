@@ -1,9 +1,9 @@
 <?php
-	include_once("controllers/adminHead.php");
+	include_once("views/adminHead.php");
 ?>
 
 admin dinges
 
 <?php
-	include_once("controllers/adminFooter.php");
+	include_once("views/adminFooter.php");
 ?>
