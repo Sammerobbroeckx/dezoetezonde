@@ -1,3 +1,5 @@
 <?php
-	echo "desserts";
+	echo "desserten";
+	
+	echo maakTabel(getDessert());
 ?>

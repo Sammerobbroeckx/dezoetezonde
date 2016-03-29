@@ -1,21 +1,78 @@
-<?php
-	// function CountEvents()
-	// {
-		// global $link;
+<?php	
+	//gerecht verwijderen naargelang het type gerecht en id
+	function VerwijderGerecht($gerecht, $id)
+	{
+		global $link;
+			
+		$result=mysqli_query($link,"DELETE FROM $gerecht WHERE ID$gerecht = '$id'");
+		return true;
+	}
+
+	//functie dat een string terug geeft van alle data uit de database in een form
+	function maakTabelForm($array, $gerecht)
+	{
+		$string = "";
 		
-		// if ($result=mysqli_query($link, "SELECT * FROM evenement"))
-		// {
-			// $rowcount=mysqli_num_rows($result);
-			// return $rowcount;
-		// }
-	// }
+		for($x = 0; $x < count($array); $x++)
+		{
+			//form maken
+			$string .= "<form action='?pagina=admin&gerecht=".$gerecht."' method='POST'><input type='hidden' name='id' value='".$array[$x][0]."' />".$array[$x][1]." -> €".$array[$x][2]."<input type='submit' value='verwijder'/></p></form>";
+		}
+		
+		return $string;
+	}
+
+	//functie dat een string terug geeft van alle data uit de database
+	function maakTabel($array)
+	{
+		$string = "";
+		
+		for($x = 0; $x < count($array); $x++)
+		{
+			$string .= "<p class='gerechtRij'>".$array[$x][1]." -> €".$array[$x][2]."</p>";
+		}
+		
+		return $string;
+	}
+	
+	//nieuw gerecht met de gegeven waarden toevoegen in de gegeven tabel
+	function VoegGerechtToe($omschrijving, $prijs, $tabel)
+	{
+		global $link;
+			
+		$result=mysqli_query($link,"INSERT INTO $tabel VALUES ('','$omschrijving','$prijs');");
+		return true;
+	}
+	
+	//geeft een array terug van alle desserten
+	function GetDessert()
+	{
+		global $link;
+			
+		$array = null;
+		$teller = 0;
+			
+		$result = mysqli_query($link, "SELECT * FROM dessert");
+
+		if (mysqli_num_rows($result) > 0) 
+		{
+			while($row = mysqli_fetch_assoc($result)) 
+			{
+				$array[$teller][0] = $row["IDdessert"];
+				$array[$teller][1] = $row["omschrijving"];
+				$array[$teller][2] = $row["prijs"];
+				$teller++;
+			}
+		}	
+		return $array;
+	}
 	
 	//geeft een array terug van alle soepen
 	function GetSoepen()
 	{
 		global $link;
 			
-		$array;
+		$array = null;
 		$teller = 0;
 			
 		$result = mysqli_query($link, "SELECT * FROM soepen");
@@ -38,7 +95,7 @@
 	{
 		global $link;
 			
-		$array;
+		$array = null;
 		$teller = 0;
 			
 		$result = mysqli_query($link, "SELECT * FROM salades");
@@ -61,7 +118,7 @@
 	{
 		global $link;
 			
-		$array;
+		$array = null;
 		$teller = 0;
 			
 		$result = mysqli_query($link, "SELECT * FROM ontbijt");
@@ -84,7 +141,7 @@
 	{
 		global $link;
 			
-		$array;
+		$array = null;
 		$teller = 0;
 			
 		$result = mysqli_query($link, "SELECT * FROM makelij");
@@ -107,7 +164,7 @@
 	{
 		global $link;
 			
-		$array;
+		$array = null;
 		$teller = 0;
 			
 		$result = mysqli_query($link, "SELECT * FROM broodjes");
@@ -130,7 +187,7 @@
 	{
 		global $link;
 			
-		$array;
+		$array = null;
 		$teller = 0;
 			
 		$result = mysqli_query($link, "SELECT * FROM kleinehap");
@@ -139,7 +196,7 @@
 		{
 			while($row = mysqli_fetch_assoc($result)) 
 			{
-				$array[$teller][0] = $row["IDkleineHap"];
+				$array[$teller][0] = $row["IDkleinehap"];
 				$array[$teller][1] = $row["omschrijving"];
 				$array[$teller][2] = $row["prijs"];
 				$teller++;
