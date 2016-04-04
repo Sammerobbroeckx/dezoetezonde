@@ -186,18 +186,18 @@ textarea
 }
 
 
+
+
 #Facebook
 {
     margin:auto;
     text-align: center;
-    margin-top:40px;
+    margin-top:80px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 }
 
-.fb-like
-{
-    margin-top: 30px;
-}
+
 
 @media(max-width:767px) 
 {
