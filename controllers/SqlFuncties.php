@@ -29,7 +29,7 @@
 		
 		for($x = 0; $x < count($array); $x++)
 		{
-			$string .= "<p class='gerechtRij'>".$array[$x][1]." -> €".$array[$x][2]."</p>";
+			$string .= "<p class='gerechtRij'>".$array[$x][1]." <input type='submit' class='btn btn-info btn-sm lblPrijs' value=' €  ".$array[$x][2]."' /></p>";
 		}
 		
 		return $string;
