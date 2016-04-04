@@ -13,12 +13,12 @@
     ?>  
     
     <div id='Facebook'>
-<div  class="fb-like" data-href="https://www.facebook.com/dezoetezondeboom/?fref=ts" data-layout="button" 
-data-action="like" data-show-faces="false" data-share="false">
-</div>
-</div>
+    <div  class="fb-like" data-href="https://www.facebook.com/dezoetezondeboom/?fref=ts" data-layout="button" 
+    data-action="like" data-show-faces="false" data-share="false">
+    </div>
+    </div>
 
-</div>
+    </div>
 
 
 <div id="fotogallerij">

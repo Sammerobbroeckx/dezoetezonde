@@ -186,13 +186,19 @@ textarea
 }
 
 
-#Facebook{
+#Facebook
+{
     margin:auto;
     text-align: center;
     margin-top:40px;
-    
-    
+
 }
+
+.fb-like
+{
+    margin-top: 30px;
+}
+
 @media(max-width:767px) 
 {
     #weekMenu
@@ -310,4 +316,5 @@ textarea
     color: #E3E3E3;
     padding:5px;
     font-size: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }

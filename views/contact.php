@@ -1,13 +1,14 @@
 <?php
-
+    if(isset($_POST["email"]))
+    {
+        sendMail($_POST["email"], $_POST["naam"], $_POST["message"]);
+    }
 ?>
-<form id="contactForm" action="php/mail.php" method="POST">
+<form id="contactForm" action="?pagina=contact" method="POST">
     <input class="form-control" type="text" name="naam" placeholder="Naam" required></input>
     <input class="form-control" type="text" name="email" placeholder="E-mail adres" required></input>
     <textArea class="form-control" type="text" name="message" placeholder="Je bericht" required></textArea>
-    <input type="submit" class="btn btn-success" value="Verstuur"/>
-    
-    
+    <input type="submit" class="btn btn-success" value="Verstuur"/>  
 </form>
 
 <div id="mapid"></div>
