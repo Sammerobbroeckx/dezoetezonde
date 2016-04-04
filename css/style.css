@@ -186,11 +186,17 @@ textarea
 }
 
 
-#Facebook{
+#Facebook
+{
     margin:auto;
-    text-align: center;
-    
+    text-align: center;   
 }
+
+.fb-like
+{
+    margin-top: 30px;
+}
+
 @media(max-width:767px) 
 {
     #weekMenu

@@ -12,7 +12,7 @@
         <p class='weekGerecht'>".$array[3]." & ". $array[2] ."</p>";
     ?>  
 
-</div>
+    </div>
 
 
 <div id="fotogallerij">
