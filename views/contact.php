@@ -5,9 +5,9 @@
     <input class="form-control" type="text" name="naam" placeholder="Naam" required></input>
     <input class="form-control" type="text" name="email" placeholder="E-mail adres" required></input>
     <textArea class="form-control" type="text" name="message" placeholder="je bericht" required></textArea>
-    <input type="submit" class="btn btn-success" value="verstuur"/>
+    <input type="submit" class="btn btn-success" value="Verstuur"/>
     
-    <br><br><p><b>Of bel ons! Tel: +32 (0)479 99 79 99</b></p>
+    
 </form>
 
 <div id="mapid"></div>
@@ -25,5 +25,5 @@
     
     var marker = L.marker([51.086486, 4.366033]).addTo(mymap);
     
-    marker.bindPopup("<b>De Zoete Zonde</b><br>Antwerpsestraat 5,<br> 2850 Boom").openPopup();
+    marker.bindPopup("<b>De Zoete Zonde</b><br>Antwerpsestraat 5,<br> 2850 Boom <br> Tel: +32 (0)479 99 79 99").openPopup();
 </script>

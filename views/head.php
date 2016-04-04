@@ -53,7 +53,7 @@
 								<li><a href="?pagina=dessert"><p class="navbardropdowntext">DESSERTS</p></a></li>
 							</ul>
 						</li>
-						<li><a href="#contact" data-toggle="modal"><p class="navbartext">CONTACT</p></a></li>
+						<li><a href="?pagina=contact" data-toggle="modal"><p class="navbartext">CONTACT</p></a></li>
                         <li><a href="?pagina=info"><p class="navbartext">INFO</p></a></li>
 						<li><a href="#login" data-toggle="modal"><p class="navbartext">LOGIN</p></a></li>					
 					</ul>

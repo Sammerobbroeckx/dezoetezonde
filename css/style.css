@@ -67,13 +67,18 @@ html
     margin: auto;
     
 } 
+.navbardropdowntext
+{
+    color: #407CAD;
+	font-size:26px;
+}
     
     
 }
 @media(max-width:767px) 
 {
 
-    #weekMenu{
+ #weekMenu{
     text-align: center;
     background-color: #FFF;
     opacity: 0.85;
@@ -84,19 +89,41 @@ html
     margin: auto;
     
 } 
-    
-.navbar-collapse{
-    background-color: #407CAD;
-    
-}  
-    
 
-    
+.navbar 
+	{
+        padding: 15px;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+        background-color: #407CAD;
+        border: black solid 0px;
+        font-family: 'DeZoeteZonde';
+        color: #fff;      
+    } 
+.navbardropdowntext
+{
+    color: #FFF;
+	font-size:26px;
+}
+.dropdown-menu a :hover
+{   
+     text-decoration: underline; 
+}
+
     #contactForm
     {
         height: 50px;
         width: 90%;
     }
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #FFF;
+}
+
+
+.navbar-default .navbar-toggle:hover{
+    background-color: #407CAD;
 }
 
 .navbartext
@@ -147,17 +174,8 @@ textarea
 
 }
 
-.navbardropdowntext
-{
-    color: #407CAD;
-	font-size:26px;
-}
 
 
-.dropdown-menu a :hover
-{   
-     color: #407CAD;   
-}
 
 #dropdowntext
 {
