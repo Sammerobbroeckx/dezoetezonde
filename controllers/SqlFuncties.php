@@ -1,5 +1,14 @@
 <?php	
-    //geeft een array terug van alle desserten
+    //weekmenu aanpassen
+    function pasWeekMenuAan($woensdag,$donderdag,$vrijdag,$soep)
+    {
+        global $link;
+        
+        $sql = "UPDATE weekmenu SET woensdag='$woensdag',donderdag='$donderdag',vrijdag='$vrijdag',soep='$soep'";
+        mysqli_query($link, $sql);
+    }
+
+    //geeft een array terug van het weekmenu
 	function GetWeekMenu()
 	{
 		global $link;
