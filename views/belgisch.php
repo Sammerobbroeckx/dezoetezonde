@@ -1,5 +1,6 @@
 <?php
-	echo "van Belgische makelij";
+	echo "<h1 class='PaginaTitel'>Van Belgische makelij</h1>";
 	
-	echo maakTabel(getMakelij());
+    
+	echo "<div class='gerechten'>" . maakTabel(getMakelij()) . "</div>";
 ?>

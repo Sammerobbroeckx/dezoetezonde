@@ -55,7 +55,36 @@ html
         border: black solid 0px;
         font-family: 'DeZoeteZonde';
         color: #fff;      
-    }  
+    } 
+    #weekMenu{
+    text-align: center;
+    background-color: #FFF;
+    opacity: 0.85;
+    border-radius: 10px;
+    padding: 10px;
+    min-height: 400px;
+    width: 60%;
+    margin: auto;
+    
+} 
+    
+    
+}
+@media(max-width:767px) 
+{
+    #weekMenu{
+    text-align: center;
+    background-color: #FFF;
+    opacity: 0.85;
+    border-radius: 5px;
+    padding: 10px;
+    min-height: 400px;
+    width: 90%;
+    margin: auto;
+    
+} 
+    
+    
 }
 
 .navbartext
@@ -117,9 +146,29 @@ html
     background-repeat: no-repeat;
     background-size: cover;
 }
-=======
+
+.PaginaTitel{
+    font-size: 50px;
+    text-align: center;
+    color: #407CAD;
+    text-decoration: underline;
+    font-family: 'DeZoeteZonde'
+}
+.gerechten{
+    text-align: center;
+    font-size: 18px;
     
 }
 
 
->>>>>>> 92ef4a2dfe2fd21a1f15082e74892166992f2d3a
+.weekDagMenu{
+    font-size: 30px;
+    text-align: center;
+    color: #407CAD;
+    text-decoration: underline;
+    font-family: 'DeZoeteZonde';
+}
+.weekGerecht{
+    text-align: center;
+    color: #407CAD;
+}
