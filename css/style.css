@@ -65,17 +65,29 @@ html
 
 }
 
-.navbardropdowntext
+.navbartext :focus
 {
-    color: #FFF;
-	font-size:16px;
+	color: #FFF;
+	font-size:30px;
+
 }
 
-.dropdown-menu a
+.navbardropdowntext
 {
-    
+    color: #407CAD;
+	font-size:20px;
+}
+
+
+.dropdown-menu a :hover
+{   
+     color: #407CAD;   
+}
+
+#dropdowntext
+{
     background-color: #407CAD;
-     color: #fff;   
+    color: #fff;   
 }
 
 #foto1
@@ -105,3 +117,9 @@ html
     background-repeat: no-repeat;
     background-size: cover;
 }
+=======
+    
+}
+
+
+>>>>>>> 92ef4a2dfe2fd21a1f15082e74892166992f2d3a
