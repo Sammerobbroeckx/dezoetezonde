@@ -65,6 +65,40 @@ html
 
 }
 
+#mapid
+{
+    height: 500px;
+    width: 500px;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+}
+
+#contactForm
+{
+    width: 400px;
+    height: 400px;
+    margin: auto;
+}
+
+#contactForm p
+{
+    text-align: center;
+}
+
+input
+{
+    margin-top: 15px;
+}
+
+textarea
+{
+    margin-top: 15px;
+}
+
 .navbartext :focus
 {
 	color: #FFF;
@@ -117,9 +151,12 @@ html
     background-repeat: no-repeat;
     background-size: cover;
 }
-=======
-    
+
+@media only screen and (max-width: 500px) 
+{
+    #contactForm
+    {
+        height: 50px;
+        width: 90%;
+    }
 }
-
-
->>>>>>> 92ef4a2dfe2fd21a1f15082e74892166992f2d3a

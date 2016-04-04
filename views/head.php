@@ -9,13 +9,19 @@
 		<title>De Zoete Zonde</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta charset="utf-8">
-		<!-- Latest compiled and minified CSS -->
+		
+        <!-- Latest compiled and minified CSS -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-		<!-- Latest compiled and minified JavaScript -->
+		
+        <!-- Latest compiled and minified JavaScript -->
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 		<link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<link rel="icon" type="image/png" href="img/favicon.png">
+        
+        <!--Leaflet-->
+        <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css" />
+        <script src="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js"></script>
 	</head>
 	<body>
 		<div class="navbar navbar-default navbar-static-top">
@@ -47,7 +53,8 @@
 								<li><a href="?pagina=dessert"><p class="navbardropdowntext">desserts</p></a></li>
 							</ul>
 						</li>
-						<li><a href="#contact" data-toggle="modal"><p class="navbartext">Contact</p></a></li>
+						<li><a href="?pagina=contact"><p class="navbartext">Contact</p></a></li>
+                        <li><a href="?pagina=info"><p class="navbartext">Info</p></a></li>
 						<li><a href="#login" data-toggle="modal"><p class="navbartext">Login</p></a></li>
 						
 					</ul>
