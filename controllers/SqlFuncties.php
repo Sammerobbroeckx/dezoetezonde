@@ -1,4 +1,18 @@
 <?php	
+    //functie om een mail te sturen
+    function sendMail($mail, $name, $message)
+    {
+        $to      = 'samme.robbroeckx@gmail.com';
+		$subject = 'vraag van '.$name;
+		$message = 'Hallo, mijn naam is '.$name.', en ik zit met de volgende vraag: '.$bericht;
+		$message = wordwrap($message, 70, "\r\n");
+		$headers = 'From: '.$mail."\r\n" .
+			'Reply-To: '.$mail."\r\n" .
+			'X-Mailer: PHP/' . phpversion();
+
+		mail($to, $subject, $message, $headers);  
+    }
+
     //weekmenu aanpassen
     function pasWeekMenuAan($woensdag,$donderdag,$vrijdag,$soep)
     {

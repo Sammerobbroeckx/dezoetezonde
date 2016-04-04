@@ -189,7 +189,8 @@ textarea
 #Facebook
 {
     margin:auto;
-    text-align: center;   
+    text-align: center;
+    margin-top:40px;
 }
 
 .fb-like
