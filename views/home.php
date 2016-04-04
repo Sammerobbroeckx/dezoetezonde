@@ -3,7 +3,7 @@
     <h2 class='weekDagMenu'>WOENSDAG</h2>
     <p class='weekGerecht'>KLOTEKUT</p>
     <h2 class='weekDagMenu'>DONDERDAG</h2>
-    <p class='weekGerecht'>VLEESVLINDER</p>
+    <p class='weekGerecht'>VLEESVLINDER IN MOSSELSAUS</p>
     <h2 class='weekDagMenu'>VRIJDAG</h2>
     <p class='weekGerecht'>SCAMPILIFE</p>
     
