@@ -3,8 +3,7 @@ body
     width: 100%;
     height: 100%;
   
- 	background-image: url("../img/bg.png") !important;
- 	
+ 	background-image: url("../img/bg.png") !important; 	
 }
 .carousel-inner > .item > img, .carousel-inner > .item > a > img 
 {
@@ -16,17 +15,11 @@ body
 .container-fluid
 {
 	margin: 0px;
-	width: 100%;
-	
+	width: 100%;	
 }
 
-.myCarousel
-{
-	padding:0px;
-	margin: 0px;
-	width: 100%;
-    
-}
+
+
 #fotogallerij
 {
 	padding:0px;
@@ -34,14 +27,18 @@ body
     top: 0;
     position: absolute;
     z-index: -1;
+    width: 100%;
 }
+
 html 
 {
     width: 100%;
     height: 100%;
 	overflow: hidden;
 }
-@font-face {
+
+@font-face 
+{
     font-family: DeZoeteZonde;
     src: url('../fonts/cookiesandmilk.ttf');
 }
@@ -57,27 +54,54 @@ html
         background-color: #407CAD;
         border: black solid 0px;
         font-family: 'DeZoeteZonde';
-        color: #fff;
-        
-        
-    }
-
-   
+        color: #fff;      
+    }  
 }
+
 .navbartext
 {
 	color: #FFF;
 	font-size:30px;
 
 }
-.navbardropdowntext{
+
+.navbardropdowntext
+{
     color: #FFF;
 	font-size:16px;
 }
 
-.dropdown-menu a{
+.dropdown-menu a
+{
     
     background-color: #407CAD;
-     color: #fff;
-    
+     color: #fff;   
+}
+
+#foto1
+{
+    background-image: url("../img/foto1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#foto2
+{
+    background-image: url("../img/foto2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#foto3
+{
+    background-image: url("../img/foto3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#foto4
+{
+    background-image: url("../img/foto4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
