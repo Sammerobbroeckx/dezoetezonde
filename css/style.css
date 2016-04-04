@@ -34,7 +34,7 @@ html
 {
     width: 100%;
     height: 100%;
-	overflow: hidden;
+	
 }
 
 @font-face 
@@ -73,17 +73,25 @@ html
 }
 @media(max-width:767px) 
 {
-    #weekMenu
-    {
-        text-align: center;
-        background-color: #FFF;
-        opacity: 0.85;
-        border-radius: 5px;
-        padding: 10px;
-        min-height: 400px;
-        width: 90%;
-        margin: auto;
-    } 
+
+    #weekMenu{
+    text-align: center;
+    background-color: #FFF;
+    opacity: 0.85;
+    border-radius: 5px;
+    padding: 10px;
+    min-height: 400px;
+    width: 90%;
+    margin: auto;
+    
+} 
+    
+.navbar-collapse{
+    background-color: #407CAD;
+    
+}  
+    
+
     
     #contactForm
     {
@@ -143,7 +151,7 @@ textarea
 .navbardropdowntext
 {
     color: #407CAD;
-	font-size:20px;
+	font-size:26px;
 }
 
 
@@ -215,4 +223,6 @@ textarea
 {
     text-align: center;
     color: #407CAD;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }

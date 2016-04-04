@@ -1,4 +1,5 @@
 <div id="weekMenu">
+
     <?php
         $array = getWeekmenu();
         
@@ -10,6 +11,7 @@
         echo "<h2 class='weekDagMenu'>VRIJDAG</h2>
         <p class='weekGerecht'>".$array[3]." & ". $array[2] ."</p>";
     ?>  
+
 </div>
 
 
