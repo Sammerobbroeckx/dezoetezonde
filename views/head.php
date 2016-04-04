@@ -39,24 +39,23 @@
 				
 					<ul class="nav navbar-nav navbar-right">
 					
-						<li><a href="?pagina=home"><p class="navbartext">Home</p></a></li>
+						<li><a href="?pagina=home"><p class="navbartext">HOME</p></a></li>
 						<li class="dropdown">
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown" id="dropdowntext"><p class="navbartext">Gerechten<b class="caret"></p></b></a>
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" id="dropdowntext"><p class="navbartext">GERECHTEN<b class="caret"></p></b></a>
 							
 							<ul class="dropdown-menu">
-								<li><a href="?pagina=ontbijt"><p class="navbardropdowntext">ontbijten</p></a></li>
-								<li><a href="?pagina=broodjes"><p class="navbardropdowntext">broodjes en omeletten</p></a></li>
-								<li><a href="?pagina=hap"><p class="navbardropdowntext">de kleine hap</p></a></li>
-								<li><a href="?pagina=belgisch"><p class="navbardropdowntext">van Belgische makelij</p></a></li>
-								<li><a href="?pagina=soep"><p class="navbardropdowntext">soepen</p></a></li>
-								<li><a href="?pagina=salade"><p class="navbardropdowntext">salades en pasta's</p></a></li>
-								<li><a href="?pagina=dessert"><p class="navbardropdowntext">desserts</p></a></li>
+								<li><a href="?pagina=ontbijt"><p class="navbardropdowntext">ONTBIJT</p></a></li>
+								<li><a href="?pagina=broodjes"><p class="navbardropdowntext">BROODJES EN OMELETTEN</p></a></li>
+								<li><a href="?pagina=hap"><p class="navbardropdowntext">DE KLEINE HAP</p></a></li>
+								<li><a href="?pagina=belgisch"><p class="navbardropdowntext">VAN BELGISCHE MAKELIJ</p></a></li>
+								<li><a href="?pagina=soep"><p class="navbardropdowntext">SOEPEN</p></a></li>
+								<li><a href="?pagina=salade"><p class="navbardropdowntext">SALADES EN PASTA'S</p></a></li>
+								<li><a href="?pagina=dessert"><p class="navbardropdowntext">DESSERTS</p></a></li>
 							</ul>
 						</li>
-						<li><a href="?pagina=contact"><p class="navbartext">Contact</p></a></li>
-                        <li><a href="?pagina=info"><p class="navbartext">Info</p></a></li>
-						<li><a href="#login" data-toggle="modal"><p class="navbartext">Login</p></a></li>
-						
+						<li><a href="#contact" data-toggle="modal"><p class="navbartext">CONTACT</p></a></li>
+                        <li><a href="?pagina=info"><p class="navbartext">INFO</p></a></li>
+						<li><a href="#login" data-toggle="modal"><p class="navbartext">LOGIN</p></a></li>					
 					</ul>
 				
 				</div>

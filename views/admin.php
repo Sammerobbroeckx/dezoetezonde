@@ -50,7 +50,7 @@
 	
 	<input type="text" name="omschrijving" placeholder="omschrijving van het product" required></input>
 	<input type="number" name="prijs" placeholder="prijs van het product" required></input>
-	<input type="submit" value="Voeg Toeg!"></input>
+	<input type="submit" value="Voeg Toe!"></input>
 </form>
 
 <h3>Een gerecht verwijderen</h3>

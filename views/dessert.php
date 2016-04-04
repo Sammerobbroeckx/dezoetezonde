@@ -1,5 +1,5 @@
 <?php
-	echo "desserten";
+	echo "<h1 class='PaginaTitel'>Desserts</h1>";
 	
-	echo maakTabel(getDessert());
+	echo "<div class='gerechten'>" . maakTabel(getDessert()) . "</div>";
 ?>

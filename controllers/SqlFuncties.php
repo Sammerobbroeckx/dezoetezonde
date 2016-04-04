@@ -3,23 +3,17 @@
 	function GetWeekMenu()
 	{
 		global $link;
-			
 		$array = null;
-		$teller = 0;
 			
 		$result = mysqli_query($link, "SELECT * FROM weekmenu");
-
-		if (mysqli_num_rows($result) > 0) 
-		{
-			while($row = mysqli_fetch_assoc($result)) 
-			{
-				$array[$teller][0] = $row["woensdag"];
-				$array[$teller][1] = $row["donderdag"];
-				$array[$teller][2] = $row["vrijdag"];
-                $array[$teller][3] = $row["soep"];
-				$teller++;
-			}
-		}	
+        
+        $row = mysqli_fetch_assoc($result);
+        
+        $array[0] = $row["woensdag"];
+        $array[1] = $row["donderdag"];
+        $array[2] = $row["vrijdag"];
+        $array[3] = $row["soep"];
+        
 		return $array;
 	}
 
