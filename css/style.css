@@ -56,22 +56,27 @@ html
         font-family: 'DeZoeteZonde';
         color: #fff;      
     } 
-    #weekMenu{
-    text-align: center;
-    background-color: #FFF;
-    opacity: 0.85;
-    border-radius: 10px;
-    padding: 10px;
-    min-height: 400px;
-    width: 60%;
-    margin: auto;
     
-} 
+
+
 .navbardropdowntext
 {
     color: #407CAD;
 	font-size:26px;
 }
+
+    #weekMenu
+    {
+        text-align: center;
+        background-color: #FFF;
+        opacity: 0.85;
+        border-radius: 10px;
+        padding: 10px;
+        min-height: 400px;
+        width: 60%;
+        margin: auto; 
+    } 
+
     
     
 }
