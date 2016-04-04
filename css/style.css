@@ -70,14 +70,28 @@ html
 	font-size:30px;
 
 }
+.navbartext :focus
+{
+	color: #FFF;
+	font-size:30px;
+
+}
 .navbardropdowntext{
-    color: #FFF;
-	font-size:16px;
+    color: #407CAD;
+	font-size:20px;
 }
 
-.dropdown-menu a{
+
+.dropdown-menu a :hover{
     
-    background-color: #407CAD;
-     color: #fff;
+    
+     color: #407CAD;
     
 }
+
+#dropdowntext{
+    background-color: #407CAD;
+    
+}
+
+

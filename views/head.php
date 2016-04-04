@@ -35,7 +35,7 @@
 					
 						<li><a href="?pagina=home"><p class="navbartext">Home</p></a></li>
 						<li class="dropdown">
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown"><p class="navbartext">Gerechten<b class="caret"></p></b></a>
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" id="dropdowntext"><p class="navbartext">Gerechten<b class="caret"></p></b></a>
 							
 							<ul class="dropdown-menu">
 								<li><a href="?pagina=ontbijt"><p class="navbardropdowntext">ontbijten</p></a></li>
