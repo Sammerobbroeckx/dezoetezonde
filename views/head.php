@@ -21,7 +21,7 @@
 		<div class="navbar navbar-default navbar-static-top">
 			<div class="container">
 				<div class="navbar-header">
-				<a href="?pagina=home" class="navbar-brand">De Zoete Zonde</a>
+				<a href="?pagina=home" class="navbar-brand"><p class="navbartext">De Zoete Zonde</p></a>
 					<button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
@@ -33,22 +33,22 @@
 				
 					<ul class="nav navbar-nav navbar-right">
 					
-						<li><a href="?pagina=home">Home</a></li>
+						<li><a href="?pagina=home"><p class="navbartext">Home</p></a></li>
 						<li class="dropdown">
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Gerechten<b class="caret"></b></a>
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown"><p class="navbartext">Gerechten<b class="caret"></p></b></a>
 							
 							<ul class="dropdown-menu">
-								<li><a href="?pagina=ontbijt">ontbijten</a></li>
-								<li><a href="?pagina=broodjes">broodjes en omeletten</a></li>
-								<li><a href="?pagina=hap">de kleine hap</a></li>
-								<li><a href="?pagina=belgisch">van Belgische makelij</a></li>
-								<li><a href="?pagina=soep">soepen</a></li>
-								<li><a href="?pagina=salade">salades en pasta's</a></li>
-								<li><a href="?pagina=dessert">desserts</a></li>
+								<li><a href="?pagina=ontbijt"><p class="navbardropdowntext">ontbijten</p></a></li>
+								<li><a href="?pagina=broodjes"><p class="navbardropdowntext">broodjes en omeletten</p></a></li>
+								<li><a href="?pagina=hap"><p class="navbardropdowntext">de kleine hap</p></a></li>
+								<li><a href="?pagina=belgisch"><p class="navbardropdowntext">van Belgische makelij</p></a></li>
+								<li><a href="?pagina=soep"><p class="navbardropdowntext">soepen</p></a></li>
+								<li><a href="?pagina=salade"><p class="navbardropdowntext">salades en pasta's</p></a></li>
+								<li><a href="?pagina=dessert"><p class="navbardropdowntext">desserts</p></a></li>
 							</ul>
 						</li>
-						<li><a href="#contact" data-toggle="modal">Contact</a></li>
-						<li><a href="#login" data-toggle="modal">Login</a></li>
+						<li><a href="#contact" data-toggle="modal"><p class="navbartext">Contact</p></a></li>
+						<li><a href="#login" data-toggle="modal"><p class="navbartext">Login</p></a></li>
 						
 					</ul>
 				

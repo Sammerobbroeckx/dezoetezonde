@@ -1,6 +1,83 @@
+body 
+{
+    width: 100%;
+    height: 100%;
+  
+ 	background-image: url("../img/bg.png") !important;
+ 	
+}
 .carousel-inner > .item > img, .carousel-inner > .item > a > img 
 {
     height: 100vh;
 	width: 100%;
     margin: 0;
+}
+
+.container-fluid
+{
+	margin: 0px;
+	width: 100%;
+	
+}
+
+.myCarousel
+{
+	padding:0px;
+	margin: 0px;
+	width: 100%;
+    
+}
+#fotogallerij
+{
+	padding:0px;
+    left: 0px;
+    top: 0;
+    position: absolute;
+    z-index: -1;
+}
+html 
+{
+    width: 100%;
+    height: 100%;
+	overflow: hidden;
+}
+@font-face {
+    font-family: DeZoeteZonde;
+    src: url('../fonts/cookiesandmilk.ttf');
+}
+
+@media(min-width:767px) 
+{	
+    .navbar 
+	{
+        padding: 15px;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+        background-color: #407CAD;
+        border: black solid 0px;
+        font-family: 'DeZoeteZonde';
+        color: #fff;
+        
+        
+    }
+
+   
+}
+.navbartext
+{
+	color: #FFF;
+	font-size:30px;
+
+}
+.navbardropdowntext{
+    color: #FFF;
+	font-size:16px;
+}
+
+.dropdown-menu a{
+    
+    background-color: #407CAD;
+     color: #fff;
+    
 }

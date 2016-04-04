@@ -1,10 +1,6 @@
 </div>
 		
-		<div class="navbar navbar-default navbar-fixed-bottom">
-			<div class="container">
-				<p class="navbar-text">Deze site is gemaakt door ....</p>
-			</div>
-		</div>
+		
 		
 		<div class="modal fade" id="contact" role="dialog">
 			<div class="modal-dialog">

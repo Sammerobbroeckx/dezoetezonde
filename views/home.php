@@ -1,7 +1,6 @@
-<?php
-	echo "home";
-?>
 
+<div class="row">
+                <div class="col-lg-12" id="fotogallerij">
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
 	<!-- Indicators -->
 	<ol class="carousel-indicators">
@@ -29,4 +28,6 @@
 			<img src="img/foto4.jpg" alt="Foto" width="100vh" height="100vh">
 		</div>
 	</div>
+</div>
+</div>
 </div>
