@@ -189,6 +189,7 @@ textarea
 #Facebook{
     margin:auto;
     text-align: center;
+    margin-top:40px;
     
 }
 @media(max-width:767px) 

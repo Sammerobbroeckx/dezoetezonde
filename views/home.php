@@ -11,6 +11,12 @@
         echo "<h2 class='weekDagMenu'>VRIJDAG</h2>
         <p class='weekGerecht'>".$array[3]." & ". $array[2] ."</p>";
     ?>  
+    
+    <div id='Facebook'>
+<div  class="fb-like" data-href="https://www.facebook.com/dezoetezondeboom/?fref=ts" data-layout="button" 
+data-action="like" data-show-faces="false" data-share="false">
+</div>
+</div>
 
 </div>
 

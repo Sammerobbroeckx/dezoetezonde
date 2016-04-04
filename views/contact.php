@@ -4,7 +4,7 @@
 <form id="contactForm" action="php/mail.php" method="POST">
     <input class="form-control" type="text" name="naam" placeholder="Naam" required></input>
     <input class="form-control" type="text" name="email" placeholder="E-mail adres" required></input>
-    <textArea class="form-control" type="text" name="message" placeholder="je bericht" required></textArea>
+    <textArea class="form-control" type="text" name="message" placeholder="Je bericht" required></textArea>
     <input type="submit" class="btn btn-success" value="Verstuur"/>
     
     

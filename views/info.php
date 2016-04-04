@@ -31,8 +31,3 @@
   </tr>
   
 </table>
-<div id='Facebook'>
-<div  class="fb-like" data-href="http://www.dezoetezonde.info/index.html" data-layout="button" 
-data-action="like" data-show-faces="false" data-share="false">
-</div>
-</div>
