@@ -20,7 +20,22 @@
 			echo "FOUT";
 		}
 	}
+    
+    if(isset($_FILES["fileToUpload"]))
+    {
+        include("controllers/uploadPhoto.php");
+    } 
 ?>
+<h3>Foto's veranderen</h3>
+<br>
+<form action="?pagina=admin" method="post" enctype="multipart/form-data">
+    Selecteer een foto:
+    <input type="file" name="fileToUpload" id="fileToUpload">
+    <input type="submit" value="Upload Image" name="submit">
+</form>
+
+<h3>Een gerecht toevoegen</h3>
+<br>
 
 <form method="POST" action="?pagina=admin">
 	<select name="nieuw" required>
