@@ -1,4 +1,22 @@
 <?php	
+    //geeft een array terug van alle desserten
+	function GetWeekMenu()
+	{
+		global $link;
+		$array = null;
+			
+		$result = mysqli_query($link, "SELECT * FROM weekmenu");
+        
+        $row = mysqli_fetch_assoc($result);
+        
+        $array[0] = $row["woensdag"];
+        $array[1] = $row["donderdag"];
+        $array[2] = $row["vrijdag"];
+        $array[3] = $row["soep"];
+        
+		return $array;
+	}
+
 	//gerecht verwijderen naargelang het type gerecht en id
 	function VerwijderGerecht($gerecht, $id)
 	{

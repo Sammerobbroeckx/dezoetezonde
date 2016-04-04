@@ -1,13 +1,17 @@
 <div id="weekMenu">
-    <h1 class='PaginaTitel'>WEEKMENU</h1>
-    <h2 class='weekDagMenu'>WOENSDAG</h2>
-    <p class='weekGerecht'>KLOTEKUT</p>
-    <h2 class='weekDagMenu'>DONDERDAG</h2>
-    <p class='weekGerecht'>VLEESVLINDER IN MOSSELSAUS</p>
-    <h2 class='weekDagMenu'>VRIJDAG</h2>
-    <p class='weekGerecht'>SCAMPILIFE</p>
-    
-    
+
+    <?php
+        $array = getWeekmenu();
+        
+        echo "<h1 class='PaginaTitel'>WEEKMENU</h1>
+        <h2 class='weekDagMenu'>WOENSDAG</h2>
+        <p class='weekGerecht'>".$array[3]." & ". $array[0] ."</p>";
+        echo "<h2 class='weekDagMenu'>DONDERDAG</h2>
+        <p class='weekGerecht'>".$array[3]." & ". $array[1] ."</p>";
+        echo "<h2 class='weekDagMenu'>VRIJDAG</h2>
+        <p class='weekGerecht'>".$array[3]." & ". $array[2] ."</p>";
+    ?>  
+
 </div>
 
 
