@@ -191,6 +191,7 @@ textarea
     text-align: center;
     margin-top:40px;
     
+    
 }
 @media(max-width:767px) 
 {
@@ -268,4 +269,45 @@ textarea
         margin: auto; 
     }    
 
+}
+
+#gerechtenTabel{
+    
+    margin: auto;
+    text-align: center;
+ 
+    
+}
+
+#gerechtentabel  tr{
+    
+    padding: 10px;
+    width:200px;
+    
+}
+
+.lblPrijs {
+    margin:0;
+    background-color: #407CAD;
+    border: 1px solid #407CAD;
+}
+.lblPrijs:hover{
+    margin:0;
+    background-color: #fff;
+    border: 1px solid #407CAD;
+    color: #407CAD;
+}
+
+#footer{
+    
+    margin: auto;
+    text-align: center;
+    background-color: #407CAD;
+    bottom: 0;
+    position:absolute;
+    width: 100%;
+    z-index: 1;
+    color: #E3E3E3;
+    padding:5px;
+    font-size: 10px;
 }
