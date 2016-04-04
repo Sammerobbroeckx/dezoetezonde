@@ -18,7 +18,6 @@
 		<link rel="icon" type="image/png" href="img/favicon.png">
 	</head>
 	<body>
-	
 		<div class="navbar navbar-default navbar-static-top">
 			<div class="container">
 				<div class="navbar-header">
@@ -57,4 +56,4 @@
 			</div>
 		</div>
 		
-		<div class="container">
+		<div class="container-fluid">
